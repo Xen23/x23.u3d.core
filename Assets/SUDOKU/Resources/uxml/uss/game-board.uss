@@ -1,0 +1,7 @@
+#display-area {
+    top: 8%;
+    position: absolute;
+    bottom: 8%;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,16 @@
+<!-- Assets/XenTek/UI/XenTekUnityConfig.uxml -->
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="XenTekUnityConfig.uss" />
+    <VisualElement class="container">
+        <uie:TextField label="Project Name" name="project-name" />
+        <uie:TextField label="Project Version" name="project-version" />
+        <uie:EnumField label="Primary Target Platform" name="primary-target-platform" type="UnityEditor.BuildTarget" />
+        <uie:TextField label="Build Output Path" name="build-output-path" />
+        <uie:TextField label="Master Server URL" name="master-server-url" />
+        <uie:TextField label="API Key" name="master-server-api-key" />
+        <uie:Toggle label="Enable Verbose Logging" name="enable-verbose-logging" />
+        <uie:TextField label="Default Editor Scene" name="default-editor-scene" />
+        <Button name="reset-button" text="Reset to Defaults" />
+        <Button name="save-button" text="Save Settings" />
+    </VisualElement>
+</ui:UXML>

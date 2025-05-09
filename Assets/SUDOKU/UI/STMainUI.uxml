@@ -1,0 +1,29 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="STStyles.uss" />
+    <ui:VisualElement name="container" class="container">
+        <ui:VisualElement name="menu-screen" class="menu-screen">
+            <ui:Label name="menu-title" text="Sudoku" style="font-size: 32px; color: black; margin-bottom: 20px;" />
+            <ui:Button name="menu-new-game" text="New Game" style="margin: 5px; width: 200px;" />
+            <ui:Button name="menu-continue" text="Continue Last Game" style="margin: 5px; width: 200px; display: none;" />
+            <ui:DropdownField name="menu-difficulty" label="Difficulty" style="margin: 5px; width: 200px;" />
+            <ui:DropdownField name="menu-symmetry" label="Symmetry" style="margin: 5px; width: 200px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="game-screen" class="game-screen" style="display: none;">
+            <ui:VisualElement name="grid" class="grid" />
+            <ui:VisualElement name="number-picker" class="number-picker" style="display: none; position: absolute; flex-direction: row; flex-wrap: wrap; width: 150px; background-color: white; border: 1px solid black; padding: 5px;" />
+            <ui:VisualElement name="controls" class="controls">
+                <ui:Button name="hint-button" text="Hint" style="margin: 5px;" />
+                <ui:Button name="validate-button" text="Validate" style="margin: 5px;" />
+                <ui:Button name="undo-button" text="Undo" style="margin: 5px;" />
+                <ui:Button name="menu-button" text="Menu" style="margin: 5px;" />
+                <ui:Label name="timer" text="Time: 00:00" style="margin: 5px;" />
+                <ui:Label name="score" text="Score: 0" style="margin: 5px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="win-screen" class="win-screen" style="display: none;">
+            <ui:Label name="win-message" text="Congratulations! Puzzle Solved!" style="color: white; font-size: 24px; margin-bottom: 20px;" />
+            <ui:Label name="win-stats" text="Score: 0 | Time: 00:00" style="color: white; font-size: 18px; margin-bottom: 20px;" />
+            <ui:Button name="win-back-to-menu" text="Back to Menu" style="margin: 5px; width: 200px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

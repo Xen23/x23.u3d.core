@@ -1,0 +1,22 @@
+{
+    "name": "XenTek",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine",
+        "UnityEditor",
+        "UnityEngine.UIElementsModule",
+        "UnityEditor.UIElementsModule",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

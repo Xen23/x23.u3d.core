@@ -1,0 +1,20 @@
+/* Assets/XenTek/UI/XenTekUnityConfig.uss */
+.container {
+    padding: 10px;
+    background-color: rgb(50, 50, 50);
+}
+
+TextField, EnumField, Toggle {
+    margin: 5px;
+}
+
+Button {
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+
+Button:hover {
+    background-color: rgb(100, 100, 100);
+}

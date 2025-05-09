@@ -1,0 +1,11 @@
+ Volume in drive C is SAB1TSYS
+ Volume Serial Number is 367F-B150
+
+ Directory of C:\Users\sysop\test
+
+09/05/2025  04:02    <DIR>          .
+09/05/2025  04:02    <DIR>          ..
+09/05/2025  04:02                 0 files.txt
+07/05/2025  21:19                26 README.md
+               2 File(s)             26 bytes
+               2 Dir(s)  47,886,602,240 bytes free

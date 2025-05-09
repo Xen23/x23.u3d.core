@@ -1,6 +1,7 @@
 // File: STGameManager.cs
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace SudokuToolkit
 {
@@ -13,13 +14,13 @@ namespace SudokuToolkit
         private MainMenuScreen menu;
         private GameWonScreen winScreen;
         private readonly Stack<(int row, int col, int value)> undoStack = new();
-
-        private void Awake()
+        private IEnumerator Start()
         {
+            yield return new WaitForSecondsRealtime(1);
             generator = new SudokuGeneratorClass();
             menu = GetComponent<MainMenuScreen>();
             winScreen = GetComponentInChildren<GameWonScreen>();
-            if (!InitializeComponents()) return;
+            if (!InitializeComponents()) yield break;
             bool hasSavedGame = !string.IsNullOrEmpty(PlayerPrefs.GetString("STLastGame", ""));
             menu.ShowMenu(hasSavedGame);
         }

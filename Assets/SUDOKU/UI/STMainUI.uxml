@@ -1,7 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="STStyles.uss" />
+    <Style src="project://database/Assets/SUDOKU/UI/STStyles.uss?fileID=7433441132597879392&amp;guid=7010f1f82fca67947bb1f6c31e0990bd&amp;type=3#STStyles" />
     <ui:VisualElement name="container" class="container">
-        <ui:VisualElement name="menu-screen" class="menu-screen">
+        <ui:VisualElement name="menu-screen" class="menu-screen" style="display: flex;">
             <ui:Label name="menu-title" text="Sudoku" style="font-size: 32px; color: black; margin-bottom: 20px;" />
             <ui:Button name="menu-new-game" text="New Game" style="margin: 5px; width: 200px;" />
             <ui:Button name="menu-continue" text="Continue Last Game" style="margin: 5px; width: 200px; display: none;" />

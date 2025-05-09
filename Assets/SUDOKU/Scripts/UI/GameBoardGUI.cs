@@ -16,7 +16,7 @@ namespace SudokuToolkit
         private VisualElement numberPicker;
         private SudokuInputActions inputActions;
         private readonly List<InputAction> numberActions = new();
-        private const float TileSize = 50f;
+        private const float TileSize = 40f;
 
         private void Awake()
         {

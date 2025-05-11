@@ -1,8 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/SUDOKU/Resources/uxml/uss/game-board.uss?fileID=7433441132597879392&amp;guid=070f71f6d221ec24fa458a2ce82e62c2&amp;type=3#game-board" />
-    <ui:GroupBox name="display-area">
-        <ui:VisualElement style="flex-grow: 1; background-color: rgba(255, 219, 0, 0); flex-shrink: 1; flex-direction: row; align-content: center; justify-content: center; visibility: visible;">
-            <ui:VisualElement style="flex-grow: 0.5; background-color: rgb(0, 239, 255);" />
-        </ui:VisualElement>
-    </ui:GroupBox>
-</ui:UXML>

@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/PennyArcade/Scenes/PennyArcade.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/XenTek/Scenes/DefaultLoader.unity
+    path: Assets/XenTek/Scenes/XENTEK.unity
     guid: ad476a09683a4004dbde4a77d8d9f5a9
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 7cc17b22cd3892e41be5afcfc55ad0f5, type: 2}

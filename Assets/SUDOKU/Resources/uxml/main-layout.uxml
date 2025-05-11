@@ -1,6 +1,0 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
-    <Style src="project://database/Assets/SUDOKU/Resources/uxml/uss/main-layout.uss?fileID=7433441132597879392&amp;guid=3e26366d594319448933d0a7f2744097&amp;type=3#main-layout" />
-    <ui:VisualElement name="main-layout-bg" />
-    <ui:GroupBox name="top-controls" class="controls" />
-    <ui:GroupBox name="btm-controls" class="controls" />
-</ui:UXML>

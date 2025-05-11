@@ -1,10 +1,8 @@
 {
-    "name": "XenTek.Editor",
+    "name": "PennyArcade.Sudoku.Editor",
     "rootNamespace": "",
     "references": [
-        "Unity.InputSystem",
-        "Unity.TextMeshPro.Editor",
-        "UnityEditor.UI"
+        "GUID:6275e538e7e086444afbaf78d862940a"
     ],
     "includePlatforms": [
         "Editor"

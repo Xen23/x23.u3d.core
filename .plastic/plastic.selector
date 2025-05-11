@@ -1,4 +1,0 @@
-repository "Penny Arcade/Penny Arcade@5772484928900@cloud"
-  path "/"
-    br "/main"
-    co "/main"

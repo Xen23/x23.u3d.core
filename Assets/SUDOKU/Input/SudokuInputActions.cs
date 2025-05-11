@@ -25,12 +25,12 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
     ""maps"": [
         {
             ""name"": ""Game"",
-            ""id"": ""92763be6-2df4-4185-9561-b90732f35671"",
+            ""id"": ""429764bf-ba2d-4843-be70-fcd3a098ba5e"",
             ""actions"": [
                 {
                     ""name"": ""LeftClick"",
                     ""type"": ""Button"",
-                    ""id"": ""a71b4c7b-cfe3-4cce-a303-5b1dcc6d5340"",
+                    ""id"": ""df6279b0-a068-4865-bfd0-06c22d99572c"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -39,7 +39,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""RightClick"",
                     ""type"": ""Button"",
-                    ""id"": ""47c8dcb5-5198-436b-bf25-8f11886d5925"",
+                    ""id"": ""f02e049c-6e56-4b80-8a7b-ca7b7e49b4e1"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -48,7 +48,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Drag"",
                     ""type"": ""Value"",
-                    ""id"": ""a6bb9461-c402-4fc6-a260-f2a048e031c9"",
+                    ""id"": ""40168a27-41f6-4564-9abb-e4f8320713d5"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -57,7 +57,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Undo"",
                     ""type"": ""Button"",
-                    ""id"": ""137c1111-ff6c-4c51-9935-79edc8a5c583"",
+                    ""id"": ""d54bae72-e09a-47f3-bfce-b2ef0534fc3e"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -66,7 +66,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Hint"",
                     ""type"": ""Button"",
-                    ""id"": ""4e7da091-15e4-4e6e-88db-d556dc466581"",
+                    ""id"": ""40a9d1a5-732f-4531-8e3e-6ab7effcb6de"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -75,7 +75,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Validate"",
                     ""type"": ""Button"",
-                    ""id"": ""472077dd-bd3c-4a29-81a3-8204609e33c7"",
+                    ""id"": ""1a385e78-3204-4528-b09a-e9e5aab34636"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -84,7 +84,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Menu"",
                     ""type"": ""Button"",
-                    ""id"": ""76ff808d-a68b-452d-8320-8c6f57b75384"",
+                    ""id"": ""a2f7eb72-10ee-4171-9b00-41d041a8bb94"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -94,7 +94,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": """",
-                    ""id"": ""94e4ba6d-fe96-4adc-b59c-e16acef25358"",
+                    ""id"": ""48bf20a5-0e7c-4c6c-ad82-cfa203651de5"",
                     ""path"": ""<Mouse>/leftButton"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -105,7 +105,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""bd43da4c-b498-43d1-94a4-48b62abac4f7"",
+                    ""id"": ""6c1be110-5d10-46b5-b02a-6123c062be43"",
                     ""path"": ""<Touchscreen>/primaryTouch/tap"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -116,7 +116,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""54638b58-5b5d-4e09-8327-247cc43a5b6c"",
+                    ""id"": ""8c9d8353-dd32-4d3f-be89-4f16ec6bb744"",
                     ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -127,7 +127,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""f15e2718-4b44-42ad-b36f-4b6de0f2f5fb"",
+                    ""id"": ""2ac1115f-9169-468f-93c5-4a5fc87047a0"",
                     ""path"": ""<Mouse>/delta"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -138,7 +138,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""9b10f961-29e4-4ea7-8b36-dc70545261e9"",
+                    ""id"": ""588b8259-0296-4264-b169-d1dd1665cdff"",
                     ""path"": ""<Touchscreen>/touch*/delta"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -149,7 +149,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""62216ea2-0409-478c-83bc-e291b6e30eed"",
+                    ""id"": ""04c16b66-5290-4dd1-9d32-c671b08cb7d6"",
                     ""path"": ""<Keyboard>/u"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -160,7 +160,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""9c170a98-f052-44af-b72b-a1c4688c99a1"",
+                    ""id"": ""7785b724-7462-40d2-b64b-38de6e08521f"",
                     ""path"": ""<Keyboard>/h"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -171,7 +171,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""ba094b45-c4f7-4eaa-87ba-5c731cba6b21"",
+                    ""id"": ""d77883ff-7592-40b0-b27f-afe37f6ff06d"",
                     ""path"": ""<Keyboard>/v"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -182,7 +182,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""ec628653-e74a-46ba-b9b0-ee487f5b6068"",
+                    ""id"": ""ab766f48-3f38-4a0a-a6c6-421c33d791c7"",
                     ""path"": ""<Keyboard>/escape"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -195,12 +195,12 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
         },
         {
             ""name"": ""UI"",
-            ""id"": ""50aa56ed-1602-4c62-84e7-e7dcede168af"",
+            ""id"": ""712408c1-731a-49da-b883-46f034f74382"",
             ""actions"": [
                 {
                     ""name"": ""Navigate"",
                     ""type"": ""PassThrough"",
-                    ""id"": ""edbdbd72-dee9-4cf2-829a-550f822c5576"",
+                    ""id"": ""ed486f24-182d-47d6-95ae-e0afabb75a4a"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -209,7 +209,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Submit"",
                     ""type"": ""Button"",
-                    ""id"": ""7296d3f8-cb20-455c-8b97-083416a3b624"",
+                    ""id"": ""b3231f50-fa20-4d9e-8893-a9ffd0a4bd6e"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -218,7 +218,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Cancel"",
                     ""type"": ""Button"",
-                    ""id"": ""872147db-fb72-42f2-a493-35c68132d486"",
+                    ""id"": ""3dd2de89-064a-4f55-84ce-8816ac280277"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -227,7 +227,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Point"",
                     ""type"": ""Value"",
-                    ""id"": ""b7086d92-9609-48de-b2e5-78564fdf9239"",
+                    ""id"": ""bff0127b-6038-4a24-a940-69b0f0f9794f"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -236,7 +236,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""Click"",
                     ""type"": ""Button"",
-                    ""id"": ""b8eb0d42-14de-47f1-8a53-71e97e349f31"",
+                    ""id"": ""da0b414e-6ef1-498a-9f8d-8d3ff777159f"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -245,7 +245,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""MiddleClick"",
                     ""type"": ""Button"",
-                    ""id"": ""0ace2861-0dfc-458d-adfa-f1ddfac7a38c"",
+                    ""id"": ""b91e46b6-b3f9-4794-a062-336b112620ec"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -254,7 +254,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""RightClick"",
                     ""type"": ""Button"",
-                    ""id"": ""0aa1dfdc-4ff1-40cb-b79a-4bb528c7054f"",
+                    ""id"": ""a13260c1-2a4f-42af-b6b8-ac544d3010be"",
                     ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -263,7 +263,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 {
                     ""name"": ""ScrollWheel"",
                     ""type"": ""Value"",
-                    ""id"": ""ff128094-ffff-4d72-b824-5155548599e0"",
+                    ""id"": ""12f1430f-c71e-4208-973b-ccb611612744"",
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
@@ -273,7 +273,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
             ""bindings"": [
                 {
                     ""name"": ""Keyboard"",
-                    ""id"": ""78005987-d2fd-4e95-9b9c-0f6e9c08a193"",
+                    ""id"": ""5eeb391f-bb7f-4b49-b500-fd98cc2c1e4a"",
                     ""path"": ""2DVector"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -284,7 +284,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""up"",
-                    ""id"": ""92c26dd1-6421-448c-a481-a9b9a61e3489"",
+                    ""id"": ""c26aa909-1d26-4fab-9c73-9b2b4d002680"",
                     ""path"": ""<Keyboard>/w"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -295,7 +295,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""down"",
-                    ""id"": ""60858266-26de-4877-a015-13ff38e1fed2"",
+                    ""id"": ""558c15be-0efa-400c-a045-f16f5dcad071"",
                     ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -306,7 +306,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""left"",
-                    ""id"": ""866a324f-9076-42ee-ad7b-445812524ebf"",
+                    ""id"": ""bdca5bbb-6b32-4276-86ed-6dd2995552d1"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -317,7 +317,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": ""right"",
-                    ""id"": ""31ddf120-46ae-42ad-bba4-c061a7463077"",
+                    ""id"": ""9e1802d7-8187-4a5e-ab85-997cf9c77cc3"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -328,7 +328,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""9b45d5cc-c524-40d1-8cd0-a26a42235064"",
+                    ""id"": ""9946307f-3433-4083-a648-4ec70b8a6069"",
                     ""path"": ""<Gamepad>/dpad"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -339,7 +339,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""b0de0671-4bae-4b31-ab03-fff55b8ad707"",
+                    ""id"": ""85ed30bb-14f9-4bc3-b132-33e8ccb8bec6"",
                     ""path"": ""<Keyboard>/enter"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -350,7 +350,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""1ad98ade-6765-464d-820a-31d247b01d55"",
+                    ""id"": ""4e27fd7b-db46-4860-b72d-8505da877260"",
                     ""path"": ""<Gamepad>/buttonSouth"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -361,7 +361,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""6e6ab8b7-57c6-412a-833e-d429c610d069"",
+                    ""id"": ""2aa57dee-3b13-4cfb-bb44-8c624e6e7051"",
                     ""path"": ""<Keyboard>/escape"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -372,7 +372,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""7885de11-234a-477a-9599-a77a4fc78dcf"",
+                    ""id"": ""6b9a4219-1976-469e-b52a-2a1ec5579cdd"",
                     ""path"": ""<Mouse>/position"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -383,7 +383,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""cc7797d4-e77f-47c4-aec2-74969afbc336"",
+                    ""id"": ""6b2a61d7-63ee-4045-b47c-a391fbe2449f"",
                     ""path"": ""<Touchscreen>/primaryTouch/position"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -394,7 +394,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""1bd6dd7a-7aa4-4a63-b92b-b44dfa09f1e7"",
+                    ""id"": ""fae73c70-3410-405d-84a4-7373a1adb79f"",
                     ""path"": ""<Mouse>/leftButton"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -405,7 +405,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""6cdd95d9-ebe6-4cbd-b4c9-e73302540757"",
+                    ""id"": ""d4cc0df3-1571-4568-9052-abcb811795ac"",
                     ""path"": ""<Touchscreen>/primaryTouch/tap"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -416,7 +416,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""8fd24e3c-7de0-4658-b53b-298789809c31"",
+                    ""id"": ""1d172cc4-8d41-4ea6-bba6-521ad13ac77f"",
                     ""path"": ""<Mouse>/middleButton"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -427,7 +427,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""07d86a89-870e-40c1-9bcc-cfd86c8ca10e"",
+                    ""id"": ""c5310ba7-03f7-4e0c-bcb3-263d2dca6a44"",
                     ""path"": ""<Mouse>/rightButton"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -438,7 +438,7 @@ public partial class @SudokuInputActions: IInputActionCollection2, IDisposable
                 },
                 {
                     ""name"": """",
-                    ""id"": ""9b25ac98-a08d-4fe0-b7b2-9688cc8c93d8"",
+                    ""id"": ""5923781a-0d10-4f3a-a04f-7f095690d231"",
                     ""path"": ""<Mouse>/scroll"",
                     ""interactions"": """",
                     ""processors"": """",

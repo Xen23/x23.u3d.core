@@ -515,6 +515,8 @@ GameObject:
   - component: {fileID: 1918174498}
   - component: {fileID: 1918174503}
   - component: {fileID: 1918174504}
+  - component: {fileID: 1918174506}
+  - component: {fileID: 1918174505}
   m_Layer: 0
   m_Name: Sudoku Game Main Menu Screen
   m_TagString: Untagged
@@ -565,6 +567,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiDocument: {fileID: 138744761}
+--- !u!114 &1918174505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918174497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7e782a0821b0f45bfe545e6b5a2a00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1918174506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918174497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1337d40d9d3fb004884cdaf8927dfe5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2015742878
 GameObject:
   m_ObjectHideFlags: 0

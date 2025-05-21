@@ -1,0 +1,50 @@
+:root {
+    --colour-1: black;
+    --colour-2: white;
+    padding: 0;
+    margin: 0;
+    -unity-font-definition: url('project://database/Assets/ASHERSPLACE/Media/fonts/BitWise%20SDF.asset?fileID=11400000&guid=ce5de74f6c552954ba4291a83aacb99a&type=2#BitWise SDF');
+    font-size: 18px;
+}
+
+VisualElement {
+}
+
+Label {
+    color: var(--colour-1);
+}
+
+Button {
+}
+
+Foldout {
+}
+
+GroupBox {
+    padding: 0;
+    margin: 0;
+}
+
+GroupBox#DiscordiaTech {
+    color: var(--colour-1);
+    background-image: url('project://database/Assets/ASHERSPLACE/Models/Fantasy%20Wooden%20GUI%20%20Free/normal_ui_set%20A/UI%20board%20Large%20stone.png?fileID=21300000&guid=7066e0747291df44fa5c2bf93bee3a6e&type=3#UI board Large stone');
+    -unity-background-scale-mode: stretch-to-fill;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(25, 218, 255, 0);
+    -unity-slice-left: 42;
+    -unity-slice-top: 42;
+    -unity-slice-right: 42;
+    -unity-slice-bottom: 42;
+}
+
+.class {
+    text-align: center;
+}
+
+.BrandTitle {
+    -unity-font-definition: url('project://database/Assets/ASHERSPLACE/Media/fonts/BitWise%20SDF.asset?fileID=11400000&guid=ce5de74f6c552954ba4291a83aacb99a&type=2#BitWise SDF');
+    font-size: 110%;
+    -unity-text-align: upper-center;
+    -unity-font: url('project://database/Assets/ASHERSPLACE/Media/fonts/BitWise.ttf?fileID=12800000&guid=840b99f24fd8392449535add5cc754a5&type=3#BitWise');
+    -unity-font-style: bold;
+}

@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/DiscordiaTechnology/Scripts/Editor/ApplicationControllerEditor.uss?fileID=7433441132597879392&amp;guid=d16426f555cbc2c48ad2466e849f8068&amp;type=3#ApplicationControllerEditor" />
+    <ui:GroupBox name="DiscordiaTech" style="flex-grow: 1; flex-shrink: 0; padding-left: 25px; padding-top: 25px; padding-right: 25px; padding-bottom: 25px;">
+        <ui:Label text="DiscordiaTech Application" name="Title" class="BrandTitle" />
+        <ui:GroupBox style="flex-grow: 1; flex-shrink: 0;">
+            <ui:Button name="daButton" text="test" binding-path="ToggleDeveloperMode" />
+            <ui:Toggle name="toggle" binding-path="ShowUI" text="Show UI" />
+        </ui:GroupBox>
+        <ui:GroupBox class="class" style="background-color: rgb(255, 255, 255); flex-grow: 1; flex-shrink: 0;">
+            <ui:Foldout name="Default_Inspector" text="Default Inspector" style="-unity-font-definition: url(&apos;project://database/Assets/ASHERSPLACE/Media/fonts/NotInter-Regular%20SDF.asset?fileID=11400000&amp;guid=dcb07980a5a17b34ab10ab0825cb3102&amp;type=2#NotInter-Regular SDF&apos;); font-size: 16px; padding-left: 3px; padding-right: 3px; padding-top: 0; padding-bottom: 3px;" />
+        </ui:GroupBox>
+    </ui:GroupBox>
+</ui:UXML>

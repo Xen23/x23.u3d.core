@@ -1,0 +1,36 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/RODENTWARS/_TITLE-MENUS/Resources/uss/TitleMenusStyleSheet.uss?fileID=7433441132597879392&amp;guid=81df4fc754901fb468a1d9170efacf11&amp;type=3#TitleMenusStyleSheet" />
+    <Style src="project://database/Assets/RODENTWARS/Resources/PlayerHeadUpDisplayUSS.uss?fileID=7433441132597879392&amp;guid=52cca8f7d635ee141b6e09ef8a3008ad&amp;type=3#PlayerHeadUpDisplayUSS" />
+    <ui:VisualElement name="PLAYERHUD" class="borders-absolute">
+        <ui:VisualElement name="BACKGROUND" class="borders-absolute" style="flex-grow: 1;" />
+        <ui:VisualElement name="CONTENT" class="borders-absolute" style="flex-grow: 1;">
+            <ui:VisualElement name="HEADER">
+                <ui:Label text="BATTLESPHERE!" display-tooltip-when-elided="true" name="BattleSphere" style="flex-grow: 0; flex-direction: row; align-items: center; justify-content: center; width: 100%; -unity-text-align: upper-center; -unity-font: url(&apos;project://database/Assets/RODENTWARS/_TITLE-MENUS/Resources/fonts/FeastOfFleashBI.TTF?fileID=12800000&amp;guid=17407ba1fd0c7e549a0a9e3dd798fca8&amp;type=3#FeastOfFleashBI&apos;); -unity-font-style: bold; font-size: 34px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MAIN">
+                <ui:GroupBox name="GAMESTATSDISPLAY" style="flex-grow: 1;">
+                    <ui:Slider picking-mode="Ignore" label="HEALTH" value="100" high-value="100" name="HEALTH" show-input-field="false" focusable="false" />
+                    <ui:Slider picking-mode="Ignore" label="ARMOUR" value="50" high-value="100" name="ARMOUR" focusable="false" />
+                    <ui:Slider picking-mode="Ignore" label="EXPERIENCE" value="0" high-value="100" name="EXPERIENCE" focusable="false" />
+                </ui:GroupBox>
+                <ui:GroupBox name="WORLDBATTLEBOARD" style="flex-grow: 1;">
+                    <ui:ProgressBar value="22" title="ENEMIES" name="ENEMIES" />
+                </ui:GroupBox>
+                <ui:GroupBox style="flex-direction: row; flex-grow: 1; align-self: stretch; display: none;">
+                    <ui:GroupBox name="ONSCREENCONTROLS" style="flex-direction: column; flex-grow: 1; display: none;">
+                        <ui:Button text="JUMP" display-tooltip-when-elided="true" name="JUMP" />
+                        <ui:Button text="SHOOT" display-tooltip-when-elided="true" name="SHOOT" />
+                        <ui:Button text="BOMB" display-tooltip-when-elided="true" name="BOMB" />
+                    </ui:GroupBox>
+                    <ui:GroupBox name="INGAMEMENUOPTIONS" style="flex-direction: column; flex-grow: 1; display: none;">
+                        <ui:Button text="RESTART" display-tooltip-when-elided="true" name="RESTART" />
+                        <ui:Button text="PAUSE" display-tooltip-when-elided="true" name="PAUSE" />
+                        <ui:Button text="EXIT" display-tooltip-when-elided="true" name="EXIT" />
+                    </ui:GroupBox>
+                </ui:GroupBox>
+            </ui:VisualElement>
+            <ui:VisualElement name="FOOTER" style="display: flex;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="OVERLAY" class="borders-absolute" />
+    </ui:VisualElement>
+</ui:UXML>

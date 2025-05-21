@@ -1,0 +1,4 @@
+@import url("unity-theme://default");
+
+@import url("/Assets/Arcade/UI/Arcade Styles.uss");
+VisualElement {}

@@ -1,0 +1,18 @@
+{
+    "name": "XenTek.Arcade",
+    "rootNamespace": "Arcade",
+    "references": [
+        "GUID:d2765ef7f3401fc47a1a40c53d894652"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Editor"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

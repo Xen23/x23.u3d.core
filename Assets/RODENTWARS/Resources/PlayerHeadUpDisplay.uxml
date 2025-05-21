@@ -1,0 +1,106 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/RODENTWARS/_TITLE-MENUS/Resources/uss/TitleMenusStyleSheet.uss?fileID=7433441132597879392&amp;guid=81df4fc754901fb468a1d9170efacf11&amp;type=3#TitleMenusStyleSheet" />
+    <Style src="project://database/Assets/RODENTWARS/Resources/PlayerHeadUpDisplayUSS.uss?fileID=7433441132597879392&amp;guid=52cca8f7d635ee141b6e09ef8a3008ad&amp;type=3#PlayerHeadUpDisplayUSS" />
+    <ui:VisualElement name="PLAYERHUD" class="borders-absolute">
+        <ui:GroupBox style="flex-direction: row; flex-grow: 1; align-self: stretch; display: none;">
+            <ui:GroupBox name="ONSCREENCONTROLS" style="flex-direction: column; flex-grow: 1; display: none;">
+                <ui:Button text="JUMP" display-tooltip-when-elided="true" name="JUMP" />
+                <ui:Button text="SHOOT" display-tooltip-when-elided="true" name="SHOOT" />
+                <ui:Button text="BOMB" display-tooltip-when-elided="true" name="BOMB" />
+            </ui:GroupBox>
+            <ui:GroupBox name="WORLDBATTLEBOARD" style="flex-grow: 1;">
+                <ui:ProgressBar value="22" title="ENEMIES" name="ENEMIES" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+        <ui:VisualElement name="BACKGROUND" class="borders-absolute" style="flex-grow: 1;">
+            <ui:VisualElement name="BORDERS" class="dt-full-screen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; position: absolute; top: 0; right: 0; left: 0; bottom: 0; overflow: hidden;">
+                <ui:VisualElement name="VisualElement" class="dt-full-screen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); scale: 1 1; width: 100%; height: 10%; display: flex; top: 0; flex-shrink: 1; bottom: auto; left: auto; right: auto; flex-direction: row; align-self: flex-start; align-items: flex-start; justify-content: flex-start; position: absolute; translate: 0 -50%; overflow: visible; visibility: visible;">
+                    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/RODENTWARS/Textures/sprites/rodentwars/BORDER_TOP.psd?fileID=2800000&amp;guid=63328ba77f7051b4fba1dc3444e5302c&amp;type=3#BORDER_TOP&apos;); transform-origin: center; position: absolute; bottom: 0; scale: 1 1; top: 0; align-items: auto; align-self: auto; width: 50%; right: auto; flex-shrink: 0; height: 100%; justify-content: center; left: 0;" />
+                    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/RODENTWARS/Textures/sprites/rodentwars/BORDER_TOP.psd?fileID=2800000&amp;guid=63328ba77f7051b4fba1dc3444e5302c&amp;type=3#BORDER_TOP&apos;); transform-origin: center; position: absolute; bottom: 0; scale: 1 1; top: 0; align-items: flex-end; align-self: flex-end; width: 50%; display: flex; right: 0; flex-shrink: 0; height: 100%; left: auto; flex-direction: row; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" class="dt-full-screen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); scale: 1 1; width: 100%; height: 10%; display: flex; bottom: 0; flex-shrink: 1; top: auto; left: auto; right: auto; align-items: auto; justify-content: flex-end; flex-direction: row; align-self: flex-end; position: absolute; translate: 0 50%; overflow: visible;">
+                    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/RODENTWARS/Textures/sprites/rodentwars/BORDER_BTM.psd?fileID=2800000&amp;guid=9baa3ed57f0a9214989d8559f1378792&amp;type=3#BORDER_BTM&apos;); top: 0; scale: 1 1; bottom: 0; align-items: auto; width: 50%; align-self: flex-start; left: 0; flex-shrink: 0; height: 100%; right: auto; position: absolute;" />
+                    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/RODENTWARS/Textures/sprites/rodentwars/BORDER_BTM.psd?fileID=2800000&amp;guid=9baa3ed57f0a9214989d8559f1378792&amp;type=3#BORDER_BTM&apos;); top: 0; scale: 1 1; bottom: 0; align-items: auto; width: 50%; align-self: flex-end; display: flex; left: auto; flex-shrink: 0; height: 100%; position: absolute; right: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="BrandLogo" class="dt-full-screen ap-logo-main" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 4px; height: auto; top: auto; align-items: flex-start; justify-content: flex-end; -unity-background-scale-mode: scale-to-fit; width: auto; visibility: visible; display: none; background-image: url(&apos;project://database/Assets/RODENTWARS/Textures/x23LogoMaterial.png?fileID=2800000&amp;guid=fc0afe0882430654bae416113f4b9e50&amp;type=3#x23LogoMaterial&apos;); flex-grow: 0; flex-shrink: 0; right: 0; bottom: 0; position: absolute; left: auto; align-self: flex-end; flex-direction: row-reverse; font-size: 0; -unity-slice-scale: 0; -unity-text-align: upper-center; transform-origin: center; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; scale: 1 1;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="CONTENT" class="borders-absolute" style="flex-grow: 1;">
+            <ui:VisualElement name="HEADER" style="align-items: center; height: 12.5%;">
+                <ui:ProgressBar value="100" name="XP" style="width: 100%; -unity-text-outline-color: rgba(255, 255, 255, 0); color: rgba(0, 0, 0, 0); padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; -unity-text-outline-width: 0; overflow: hidden; height: 20%;" />
+                <ui:Label text="HEAD-UP DISPLAY" display-tooltip-when-elided="true" name="PLAYERHUD" style="flex-grow: 0; flex-direction: row; align-items: auto; justify-content: flex-end; -unity-text-align: upper-center; -unity-font: url(&apos;project://database/Assets/RODENTWARS/_TITLE-MENUS/Resources/fonts/FeastOfFleashBI.TTF?fileID=12800000&amp;guid=17407ba1fd0c7e549a0a9e3dd798fca8&amp;type=3#FeastOfFleashBI&apos;); -unity-font-style: bold; font-size: 75px; flex-shrink: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; transform-origin: center; display: none; align-self: auto; color: rgb(232, 255, 0); -unity-text-outline-color: rgb(0, 0, 0); -unity-text-outline-width: 2px;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="MAIN" style="justify-content: flex-end; transform-origin: center; align-items: stretch;">
+                <ui:GroupBox name="GAMESTATSDISPLAY" style="flex-grow: 0; width: 100%; align-self: auto; align-items: stretch; justify-content: flex-start; flex-direction: column; flex-shrink: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; display: none;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="FOOTER" style="display: flex; height: 12.5%;">
+                <ui:VisualElement name="STATS" style="flex-grow: 0; flex-direction: row; height: auto; scale: 1 1; flex-shrink: 1; justify-content: flex-start; align-self: auto;">
+                    <ui:VisualElement style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; flex-shrink: 0; align-self: stretch; width: 20%;">
+                        <ui:ProgressBar value="100" title="HEALTH" name="HEALTH" style="-unity-background-image-tint-color: rgb(255, 255, 145); -unity-text-outline-color: rgb(255, 137, 255); border-left-color: rgba(97, 0, 0, 0); border-right-color: rgba(97, 0, 0, 0); border-top-color: rgba(97, 0, 0, 0); border-bottom-color: rgba(97, 0, 0, 0);" />
+                        <ui:ProgressBar value="100" title="ARMOUR" name="ARMOUR" />
+                        <ui:ProgressBar value="100" title="SHIELDS" name="SHIELDS" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; flex-grow: 1; flex-shrink: 0; width: 20%;">
+                        <ui:ProgressBar value="66" title="AMMO" name="AMMO" />
+                        <ui:ProgressBar value="50" title="FOCUS" name="FOCUS" />
+                        <ui:ProgressBar value="33" title="RAGE" name="RAGE" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; flex-shrink: 0; width: 20%;" />
+                    <ui:VisualElement style="flex-grow: 1; flex-shrink: 0; width: 20%;">
+                        <ui:ProgressBar value="33" title="SCRABBLE" name="SCRABBLE" />
+                        <ui:ProgressBar value="33" title="BOUNCE" name="BOUNCE" />
+                        <ui:ProgressBar value="33" title="WHEE!" name="WHEE" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; flex-shrink: 0; width: 20%;">
+                        <ui:ProgressBar value="0" title="SCORE" name="SCORE" />
+                        <ui:ProgressBar value="0" title="KILLS" name="KILLS" />
+                        <ui:ProgressBar value="0" title="CHEESE" name="CHEESE" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="OVERLAY" class="borders-absolute" style="display: none;">
+            <ui:VisualElement name="BORDERS" class="dt-full-screen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-shrink: 0; position: absolute; top: 0; right: 0; left: 0; bottom: 0;">
+                <ui:VisualElement name="VisualElement" class="dt-full-screen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); scale: 1 1; width: 100%; height: 10%; display: flex; top: 0; flex-shrink: 1; bottom: auto; left: auto; right: auto; flex-direction: row; align-self: flex-start; align-items: flex-start; justify-content: flex-start; position: absolute; translate: 0 -30%;">
+                    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/RODENTWARS/Textures/sprites/rodentwars/BORDER_TOP.psd?fileID=2800000&amp;guid=63328ba77f7051b4fba1dc3444e5302c&amp;type=3#BORDER_TOP&apos;); transform-origin: center; position: absolute; bottom: 0; scale: 1 1; top: 0; align-items: auto; align-self: auto; width: 50%; right: auto; flex-shrink: 0; height: 100%; justify-content: center; left: 0;" />
+                    <ui:VisualElement name="VisualElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/RODENTWARS/Textures/sprites/rodentwars/BORDER_TOP.psd?fileID=2800000&amp;guid=63328ba77f7051b4fba1dc3444e5302c&amp;type=3#BORDER_TOP&apos;); transform-origin: center; position: absolute; bottom: 0; scale: 1 1; top: 0; align-items: flex-end; align-self: flex-end; width: 50%; display: flex; right: 0; flex-shrink: 0; height: 100%; left: auto; flex-direction: row; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="VisualElement" class="dt-full-screen" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); scale: 1 1; width: 100%; height: 10%; display: flex; bottom: 0; flex-shrink: 1; top: auto; left: auto; right: auto; align-items: auto; justify-content: flex-end; flex-direction: row; align-self: flex-end; position: absolute; translate: 0 5%;">
+                    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/RODENTWARS/Textures/sprites/rodentwars/BORDER_BTM.psd?fileID=2800000&amp;guid=9baa3ed57f0a9214989d8559f1378792&amp;type=3#BORDER_BTM&apos;); top: 0; scale: 1 1; bottom: 0; align-items: auto; width: 50%; align-self: flex-start; left: 0; flex-shrink: 0; height: 100%; right: auto; position: absolute;" />
+                    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/RODENTWARS/Textures/sprites/rodentwars/BORDER_BTM.psd?fileID=2800000&amp;guid=9baa3ed57f0a9214989d8559f1378792&amp;type=3#BORDER_BTM&apos;); top: 0; scale: 1 1; bottom: 0; align-items: auto; width: 50%; align-self: flex-end; display: flex; left: auto; flex-shrink: 0; height: 100%; position: absolute; right: 0;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="BrandLogo" class="dt-full-screen ap-logo-main" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 4px; height: auto; top: auto; align-items: flex-start; justify-content: flex-end; -unity-background-scale-mode: scale-to-fit; width: auto; visibility: visible; display: flex; background-image: url(&apos;project://database/Assets/RODENTWARS/Textures/x23LogoMaterial.png?fileID=2800000&amp;guid=fc0afe0882430654bae416113f4b9e50&amp;type=3#x23LogoMaterial&apos;); flex-grow: 0; flex-shrink: 0; right: 0; bottom: 0; position: absolute; left: auto; align-self: flex-end; flex-direction: row-reverse; font-size: 0; -unity-slice-scale: 0; -unity-text-align: upper-center; transform-origin: center; padding-top: 8px; padding-right: 8px; padding-bottom: 8px; padding-left: 8px; scale: 1 1;" />
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 0; height: 10%;" />
+            <ui:VisualElement name="PANEL_INGAMEMENU" focusable="true" class="gui-image titles-panel" style="position: relative;">
+                <ui:VisualElement name="VisualElement" class="MENUITEMS" style="flex-grow: 0; overflow: visible;">
+                    <ui:VisualElement name="GUILABEL" class="titles-text_bg" style="align-self: auto; align-items: auto;">
+                        <ui:Label tabindex="-1" text="PAUSEd MENU" display-tooltip-when-elided="true" name="txt-pausedmenu" class="gui-label titles-header titles-text" style="align-self: center; align-items: auto; flex-shrink: 1; flex-grow: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GUIBUTTON" focusable="false" class="titles-button_bg">
+                        <ui:Button text="AUDIO" display-tooltip-when-elided="true" name="btn-optionsaudio" enable-rich-text="true" tabindex="1" class="gui-button titles-button titles-text" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GUIBUTTON" class="titles-button_bg">
+                        <ui:Button text="VIDEO" display-tooltip-when-elided="true" name="btn-optionsvideo" tabindex="2" class="gui-button titles-button titles-text" style="flex-grow: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GUIBUTTON" class="titles-button_bg">
+                        <ui:Button text="GUI / HUD" display-tooltip-when-elided="true" name="btn-optionsguihud" tabindex="3" class="gui-button titles-button titles-text" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GUIBUTTON" class="titles-button_bg" style="display: flex;">
+                        <ui:Button text="CONTROLS" display-tooltip-when-elided="true" name="btn-controls" tabindex="5" class="gui-button titles-button titles-text" style="flex-grow: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GUIBUTTON" class="titles-button_bg">
+                        <ui:Button text="WORLD" display-tooltip-when-elided="true" name="btn-world" tabindex="4" class="gui-button titles-button titles-text" style="flex-grow: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GUIBUTTON" class="titles-button_bg">
+                        <ui:Button text="PLAY!" display-tooltip-when-elided="true" name="btn-play" tabindex="6" class="gui-button titles-button titles-text" style="flex-grow: 0;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="GUILABEL" class="titles-text_bg" style="flex-shrink: 0;">
+                        <ui:Label tabindex="-1" text="welcome to the war!" display-tooltip-when-elided="true" name="txt-w2tw" class="gui-label titles-footer titles-text" style="flex-grow: 0;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement style="flex-grow: 0; height: 10%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,112 @@
+.unity-foldout__toggle {
+    flex-grow: 0;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.unity-foldout__toggle VisualElement Label {
+    flex-grow: 0;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+}
+
+.unity-foldout__toggle VisualElement #unity-checkmark {
+    flex-grow: 0;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    background-image: url('project://database/Assets/DiscordiaTechnology/Plugins/Standard%20Resource%20Packs/Textures/DiscordiaTech_LOGO.png?fileID=2800000&guid=afe78674b5ad97b41a3163f6c70d318e&type=3#DiscordiaTech_LOGO');
+    flex-shrink: 1;
+    height: 25px;
+    width: 25px;
+    margin-left: 2px;
+}
+
+.unity-foldout__toggle VisualElement Label {
+    flex-grow: 1;
+    justify-content: space-around;
+    -unity-text-align: middle-center;
+    margin-top: 1px;
+}
+
+.unity-foldout__input {
+}
+
+.unity-foldout__content #unity-content GroupBox {
+    margin: 0;
+    padding: 0;
+}
+
+.unity-foldout__checkmark {
+    flex-grow: 0;
+}
+
+.unity-foldout__text {
+    font-size: 100%;
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+    white-space: nowrap;
+    -unity-font-definition: initial;
+    flex-grow: 1;
+    flex-direction: row;
+    padding-right: 0;
+    align-items: auto;
+    flex-shrink: 0;
+    -unity-text-outline-width: 0;
+}
+
+.unity-foldout__content {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: auto;
+    min-height: auto;
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: initial;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('project://database/Assets/DiscordiaTechnology/Plugins/Standard%20Resource%20Packs/Textures/panel/ui-panel.png?fileID=2800000&guid=2892c90a0e2e6e845bf656153da217c8&type=3#ui-panel');
+    transition-duration: 0.5s;
+    transition-property: opacity;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 12px;
+    padding-bottom: 0;
+    -unity-background-image-tint-color: rgb(153, 224, 212);
+}
+
+.unity-button {
+    width: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.ApplicationDefault {
+    flex-grow: 1;
+    background-image: url('project://database/Assets/DiscordiaTechnology/Plugins/Standard%20Resource%20Packs/Textures/DiscordiaTech_LOGO.png?fileID=2800000&guid=afe78674b5ad97b41a3163f6c70d318e&type=3#DiscordiaTech_LOGO');
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.unity-text-element {
+    -unity-font: url('project://database/Assets/_RODENTWARS/Assets/fonts/BitWise.ttf?fileID=12800000&guid=840b99f24fd8392449535add5cc754a5&type=3#BitWise');
+    -unity-font-style: normal;
+    font-size: 100%;
+}

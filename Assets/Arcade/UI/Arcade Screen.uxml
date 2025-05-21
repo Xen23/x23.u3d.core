@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <Style src="Arcade Styles.uss" />
+    <ui:VisualElement class="container">
+        <ui:Label text="Arcade" class="title" />
+        <ui:Button name="play-button" text="Play" class="menu-button" />
+        <ui:Button name="settings-button" text="Settings" class="menu-button" />
+        <ui:Button name="exit-button" text="Exit" class="menu-button" />
+    </ui:VisualElement>
+</ui:UXML>

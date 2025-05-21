@@ -1,0 +1,18 @@
+{
+    "name": "XenTek.Arcade.Editor",
+    "rootNamespace": "Arcade.Editor",
+    "references": [
+        "GUID:ffe523c1e874fda4c815d50daddad483"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

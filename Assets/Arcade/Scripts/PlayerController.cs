@@ -2,7 +2,7 @@
 using UnityEngine.InputSystem;
 using XenTek.Core.Commands;
 
-namespace Arcade
+namespace XenTek.Arcade
 {
     public class PlayerController : MonoBehaviour
     {

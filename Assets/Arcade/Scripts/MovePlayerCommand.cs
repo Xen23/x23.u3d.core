@@ -1,7 +1,7 @@
 using UnityEngine;
 using XenTek.Core.Commands;
 
-namespace Arcade
+namespace XenTek.Arcade
 {
     public class MovePlayerCommand : ICommand
     {

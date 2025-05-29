@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Arcade.UI
+namespace XenTek.Arcade.UI
 {
     public class UIMenuCommand : XenTek.Core.Commands.ICommand
     {

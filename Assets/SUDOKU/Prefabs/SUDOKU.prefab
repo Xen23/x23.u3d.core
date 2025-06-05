@@ -217,9 +217,6 @@ MonoBehaviour:
   m_ParentUI: {fileID: 0}
   sourceAsset: {fileID: 9197481963319205126, guid: cc31e623f3f7e1e45b93c6e7bd836915, type: 3}
   m_SortingOrder: 0
-  m_WorldSpaceSizeMode: 1
-  m_WorldSpaceWidth: 1920
-  m_WorldSpaceHeight: 1080
 --- !u!114 &1942543672109295362
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,8 +256,6 @@ GameObject:
   - component: {fileID: 7369993408667626748}
   - component: {fileID: 107514241922154095}
   - component: {fileID: 8882756018656595281}
-  - component: {fileID: 5788090735397130872}
-  - component: {fileID: 2854910771276376159}
   m_Layer: 0
   m_Name: Sudoku Game Main Menu Screen
   m_TagString: Untagged
@@ -311,30 +306,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiDocument: {fileID: 4920810008382931124}
---- !u!114 &5788090735397130872
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6632042906063801313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1337d40d9d3fb004884cdaf8927dfe5d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2854910771276376159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6632042906063801313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b7e782a0821b0f45bfe545e6b5a2a00, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &8747282425971902172
 GameObject:
   m_ObjectHideFlags: 0

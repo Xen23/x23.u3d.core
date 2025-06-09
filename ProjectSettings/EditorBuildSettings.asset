@@ -6,12 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PennyArcade/Scenes/PennyArcade.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Arcade/Scenes/ARCADE.unity
+    guid: b36b9a33e84f0614e818bbb1f5b39e26
   - enabled: 1
-    path: Assets/XenTek/Scenes/XENTEK.unity
+    path: Assets/Xen23/Scenes/Core.unity
     guid: ad476a09683a4004dbde4a77d8d9f5a9
+  - enabled: 1
+    path: Assets/Sudoku/SUDOKU.unity
+    guid: ac440715d387f2347938af198190ed23
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 7cc17b22cd3892e41be5afcfc55ad0f5, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  m_UseUCBPForAssetBundles: 0

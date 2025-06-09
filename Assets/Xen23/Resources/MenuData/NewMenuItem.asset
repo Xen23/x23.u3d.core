@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4828b0054af98d34caa8a15beaa699e1, type: 3}
+  m_Name: NewMenuItem
+  m_EditorClassIdentifier: 
+  version: 1
+  useCustomSavePath: 0
+  customSavePath: Assets/Resources/MenuData
+  autoSaveOnChange: 1
+  itemId: item_default
+  itemText: Item
+  itemTextTranslations:
+    translations: []
+  itemIcon: {fileID: 0}
+  accessibilityIconOverride: {fileID: 0}
+  actionType: 0
+  actionParameter: 
+  itemPosition: {x: 0, y: 0}
+  itemSize: {x: 200, y: 50}
+  isInteractable: 1
+  accessibilityOptions:
+    highContrastMode: 0
+    textSizeMultiplier: 1
+    screenReaderSupport: 1
+    screenReaderAudio: {fileID: 0}

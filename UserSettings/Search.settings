@@ -1,6 +1,5 @@
 trackSelection = true
 refreshSearchWindowsInPlayMode = false
-pickerAdvancedUI = false
 fetchPreview = true
 defaultFlags = 0
 keepOpen = true
@@ -13,6 +12,11 @@ scopes = {
 	"picker_visibility_flags.075BCD15" = "264"
 	"picker_item_size.075BCD15" = "96"
 	"picker_inspector.075BCD15" = "0"
+	"picker_window_position_offset.E06AA71F" = "45;228;320;550"
+	"picker_search_text.E06AA71F" = ""
+	"last_search.E06AA71F" = ""
+	"OpenInspectorPreview.E06AA71F" = "0"
+	"currentGroup.E06AA71F" = null
 }
 providers = {
 	asset = {

@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "menuId": "menu_default",
+    "menuTitle": "Main Menu",
+    "titleTranslations": {
+        "translations": []
+    },
+    "panels": [],
+    "uiXmlLayout": "<!-- UI XML Layout -->",
+    "backgroundSpritePath": "",
+    "backgroundTexturePath": "",
+    "menuBgmPath": "",
+    "selectSfxPath": ""
+}

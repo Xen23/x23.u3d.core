@@ -1,8 +1,8 @@
 using UnityEngine;
 
-namespace XenTek.Arcade.UI
+namespace Xen23.Arcade.UI
 {
-    public class UIMenuCommand : XenTek.Core.Commands.ICommand
+    public class UIMenuCommand : Xen23.Core.Commands.ICommand
     {
         private readonly string actionName;
         private readonly System.Action onExecute;

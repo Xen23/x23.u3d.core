@@ -1,5 +1,5 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
-    <Style src="Arcade Styles.uss" />
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Arcade/UI/Arcade%20Styles.uss?fileID=7433441132597879392&amp;guid=4a901c7f0b351824fac63954947fe75f&amp;type=3#Arcade Styles" />
     <ui:VisualElement class="container">
         <ui:Label text="Arcade" class="title" />
         <ui:Button name="play-button" text="Play" class="menu-button" />

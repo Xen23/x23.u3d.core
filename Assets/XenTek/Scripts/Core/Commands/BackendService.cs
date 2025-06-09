@@ -5,7 +5,7 @@ namespace XenTek.Core
 {
     /// <summary>
     /// Implementation of IBackendService for communicating with the XenTek master server.
-    /// Uses UnityWebRequest for HTTP requests and XenTekConfigSO for settings.
+    /// Uses UnityWebRequest for HTTP requests and XenTekMenusSO for settings.
     /// </summary>
     public class BackendService : MonoBehaviour, IBackendService
     {

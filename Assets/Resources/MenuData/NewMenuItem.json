@@ -1,0 +1,29 @@
+{
+    "version": 1,
+    "itemId": "item_default",
+    "itemText": "Item",
+    "itemTextTranslations": {
+        "translations": []
+    },
+    "itemIconPath": "",
+    "accessibilityIconOverridePath": "",
+    "actionType": 0,
+    "actionParameter": "",
+    "itemPosition": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "itemSize": {
+        "x": 200.0,
+        "y": 50.0
+    },
+    "isInteractable": true,
+    "accessibilityOptions": {
+        "highContrastMode": false,
+        "textSizeMultiplier": 1.0,
+        "screenReaderSupport": true,
+        "screenReaderAudio": {
+            "instanceID": 0
+        }
+    }
+}

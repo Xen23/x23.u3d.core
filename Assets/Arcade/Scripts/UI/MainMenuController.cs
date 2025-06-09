@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
-using XenTek.Core;
-using XenTek.Core.Commands;
+using Xen23.Core;
+using Xen23.Core.Commands;
 
-namespace XenTek.Arcade.UI
+namespace Xen23.Arcade.UI
 {
     public class MainMenuController : MonoBehaviour
     {
@@ -17,7 +17,7 @@ namespace XenTek.Arcade.UI
         private InputAction navigateAction;
         private InputAction selectAction;
         private VisualElement focusedButton;
-        private int focusedIndex;
+        [SerializeField] private int focusedIndex;
 
         private void Awake()
         {

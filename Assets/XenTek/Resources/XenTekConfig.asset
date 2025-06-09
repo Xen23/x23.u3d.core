@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8cbf0af94bfa7c4eb87889d6075e669, type: 3}
+  m_Script: {fileID: 11500000, guid: cbff9da927e97cf479c6bd98b77a8d7e, type: 3}
   m_Name: XenTekConfig
   m_EditorClassIdentifier: 
   enableVerboseLogging: 0

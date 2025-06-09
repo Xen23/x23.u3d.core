@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
-using XenTek.Core.Commands;
+using Xen23.Core.Commands;
 
-namespace XenTek.Arcade
+namespace Xen23.Arcade
 {
     public class PlayerController : MonoBehaviour
     {
